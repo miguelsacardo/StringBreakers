@@ -1,0 +1,52 @@
+.sac-content .sac-top{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.sac-type{
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
+.sac-content{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+textarea{
+    width: 753px;
+    height: 141px;
+}
+
+.sac-content .input-sac-content{
+    width: 753px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding-left: 15px;
+}
+
+/* buttons sac */
+.sac-btn{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.sac-btn button{
+    padding: 15px 15px 15px 15px;
+    border: 2px solid limegreen;
+    color: limegreen;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.sac-btn button:hover{
+    transform: scale(1.02);
+    border-radius: 15px;
+}

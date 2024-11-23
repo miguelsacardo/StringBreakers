@@ -1,23 +1,23 @@
 export const database = [ /* "Banco de dados" de produtos comercializados no site */
     {
         codigoProduto:1,
-        tituloProduto:"Furadeira e Parafusadeira de Impacto a Bateria Bosch com Carregador e Bateria 18V 1/2 GSB 180-Li Bivolt", 
+        tituloProduto:"Guitarra Fender ponte flutuante de 6 cordas Jimi Hendrix Signature", 
         preco: 620.00, 
-        descricao:"Para furar madeiras, metais e alvenaria, a Furadeira e Parafusadeira GSB 180-Li é a solução ideal! Com o maior torque da categoria, baixa manutenção e a maior resistência se comparar com os principais concorrentes, é sinônimo de máxima performance com o melhor custo benefício.",
+        descricao:"Guitarra perfeita se você deseja tocar as músicas clássicas do rock com a assinatura especial de Jimi Hendrix, o rei da guitarra. A Fender oferece guitarras de ultima geração.",
         imagemProduto: {
-            img1:"./images/products/prod01/img1.png",
-            img2:"./images/products/prod01/img2.png",
-            img3:"./images/products/prod01/img3.png",
-            img4:"./images/products/prod01/img4.png",
+            img1:"./images/products/guitars/fender_jimi_signature.png",
+            img2:"./images/products/guitars/fender_jimi_signature.png",
+            img3:"./images/products/guitars/fender_jimi_signature.png",
+            img4:"./images/products/guitars/fender_jimi_signature.png",
 
         },
-        categoriaProduto: 'Ferramentas',
+        categoriaProduto: 'GUITARRA JIMI HENDRIX SIGNATURE',
         classificacaoProduto:"Novidades",
         exibirHome: true
     },
     {
         codigoProduto:2,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
+        tituloProduto:"Ibanez", 
         preco: 300.00, 
         descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
         imagemProduto: {
@@ -26,7 +26,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
             img3:"./images/products/prod02/img3.png",
             img4:"./images/products/prod02/img4.png",
     },
-        categoriaProduto: 'Ferramentas',
+        categoriaProduto: 'GUITARRA IBANEZ',
         classificacaoProduto:"Novidades",
         exibirHome: true
     },

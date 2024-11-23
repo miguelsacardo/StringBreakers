@@ -1,0 +1,12 @@
+.aboutus-content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+}
+
+.aboutus-content h2{
+    padding-bottom: 8px;
+    padding-top: 25px;
+}
