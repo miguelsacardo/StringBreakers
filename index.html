@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--importação do CSS-->
+    <link rel="stylesheet" href="styles/styles.css" />
+
+    <!--importação bootstrap icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <!--header - localização, contato e sac-->
+      <div class="header-info-bar">
+        <div class="container">
+          <h4>
+            <a href="https://maps.app.goo.gl/CXfA3jkdxrC8whbF9">Campinas-SP</a>
+          </h4>
+          <h4>
+            Entregamos em todo Brasil - compre pelo site ou pelo telefone
+            <a href="tel:+08001234567">0800 123 4567</a>
+          </h4>
+          <h4>Precisa de ajuda?</h4>
+          <!--colocar link para alguma página, etc-->
+        </div>
+        <!--end div container-->
+      </div>
+      <!--end header-info-bar-->
+
+      <!-- main header - logotipo, barra de pesquisa, favoritos,perfil, carrinho e categorias-->
+      <div class="header-main">
+        <div class="container">
+          <div class="header-logotipo">
+            <img src="./images/logotype/stringbreakers_logo.jpeg" alt="" />
+          </div>
+          <!--end div logotipo-->
+
+          <div class="header-search-bar">
+            <i class="bi bi-search"></i><input
+              type="search"
+              name=""
+              id=""
+              placeholder="O que você procura na String Breakers?"
+            />
+          </div>
+          <!--end header-search-bar-->
+
+          <div class="header-icons">
+            <i class="bi bi-heart"></i>
+            <i class="bi bi-person"></i>
+            <i class="bi bi-cart"></i>
+          </div>
+          <!--end header-icons-->
+        <!--end div container-->
+      </div>
+      <!--end div header main -->
+
+      <!--Navigation - categorias-->
+      <div class="header-nav">
+        <nav class="navigation">
+          <ul>
+            <li>Guitarras</li>
+            <li>Palhetas</li>
+            <li>Cordas</li>
+            <li>Amplificadores</li>
+            <li><a href="">Todos os produtos</a></li> <!--neste href estará a linkagem para a página que exibe todos os produtos-->
+          </ul>
+        </nav><!--end nav-->
+      </div><!--end div header-nav-->
+
+      <div id="header-banner" class="container">
+        <img src="./images/banner-images/information-banner.jpeg" alt="" class="banner">
+      </div>
+
+    </header>
+    <!--end header-->
+
+    <main id="main">
+      <div class="container">
+        
+        <!--Sessão de ofertas-->
+        <section class="section-category">
+          <a href="">
+            <div class="card-category">
+              <img src="./images/products/section-category/Equipamento.jpeg" alt="">
+              <h4>EQUIPAMENTO</h4>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="card-category">
+              <img src="./images/products/section-category/famosos-img.jfif" alt="">
+              <h4>FAMOSOS</h4>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="card-category">
+              <img src="./images/products/section-category/Equipamento.jpeg" alt="">
+              <h4>ACÚSTICOS</h4>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="card-category">
+              <img src="./images/products/section-category/Equipamento.jpeg" alt="">
+              <h4>Equipamento</h4>
+            </div>
+          </a>
+
+          <a href="">
+            <div class="card-category">
+              <img src="./images/products/section-category/Equipamento.jpeg" alt="">
+              <h4>Equipamento</h4>
+            </div>
+          </a>
+        </section><!--end section-category-->
+
+        <!--Banner 1--> <!--arrumar imagens maiores para os banners-->
+        <div id="banner" class="container">
+          <img src="./images/products/banners/banner_1.jpeg" alt="">
+        </div><!--end banner-->
+
+        <!--novidades-->
+        <section class="section-product">
+          <h2 class="main-title">Novidades</h2>
+
+          <!-- Componente Carrousel de Produtos -->
+          <section id="section-1" class="section-product-carrousel">
+          <div class="carrousel">
+          <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
+          </div>
+          </section>
+
+          <!-- Botoes reservados para o carrousel - nao remover -->
+          <button class="prev">
+            <i class="bi bi-chevron-double-left"></i>
+          </button>
+          <button class="next">
+          <i class="bi bi-chevron-double-right"></i>
+          </button>
+        </section><!--end section-product-->
+
+        <!--Banner 2--> <!--arrumar imagens maiores para os banners-->
+        <div id="banner" class="container">
+          <img src="./images/products/banners/banner_1.jpeg" alt="">
+        </div><!--end banner-->
+        
+        <!--produtos mais vendidos-->
+        <section class="section-product">
+          <h2 class="main-title">Mais vendidos</h2>
+
+        <!-- Componente Carrousel de Produtos -->
+        <section id="section-2" class="section-product-carrousel">
+        <div class="carrousel">
+          <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
+        </div>
+        </section>
+        
+        <!-- Botoes reservados para o carrousel - nao remover -->
+        <button class="prev">
+          <i class="bi bi-chevron-double-left"></i>
+        </button>
+        <button class="next">
+          <i class="bi bi-chevron-double-right"></i>
+        </button>
+
+        </section><!--end section-product-->
+
+        <!--promoções-->
+        <section class="section-product">
+          <h2 class="main-title">Promoções</h2>
+
+          <!-- Componente Carrousel de Produtos -->
+          <section id="section-3" class="section-product-carrousel">
+            <div class="carrousel">
+              <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
+            </div>
+          </section>
+
+          <!-- Botoes reservados para o carrousel - nao remover -->
+        <button class="prev">
+          <i class="bi bi-chevron-double-left"></i>
+        </button>
+        <button class="next">
+          <i class="bi bi-chevron-double-right"></i>
+        </button>
+
+        </section><!--end section-product-->
+
+      </div><!--end div container-->
+
+    </main><!--end main-->
+
+    <!-- Link para Javascrip - NAO EXCLUIR -->
+    <script type="module" src="./scripts/home.js" defer></script>
+    <!-- Link para Javascrip - NAO EXCLUIR -->
+  </body>
+</html>
