@@ -7,6 +7,12 @@
     box-sizing: border-box; /* borda a borda */
 }
 
+body{
+    overflow-x: hidden;
+    font-family: "Roboto", sans-serif;
+    background-color: #F5F6F6;
+}
+
 /* container layout */
 .container{
     max-width: 1440px;
@@ -101,7 +107,7 @@
 .card-category{
     width: 230px;
     padding-top: 40px;
-    
+    padding-bottom: 30px;
     text-align: center;
 }
 
@@ -115,8 +121,6 @@
     width: 700px;
     height: 350px;
     border-radius: 10px;
-
-    padding-top: 30px;
 }
 #banner img{
     width: 100%;
@@ -124,6 +128,65 @@
     border-radius: 10px;
 }
 
+/* information cards layout */
+.informational-cards{
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    padding-bottom: 60px;
+}
+
+.card-informations h2{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color:  limegreen;
+}
+.card-informations{
+    width: 25%;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
+    border: 1px solid white;
+    background-color: white;
+    padding-bottom: 35px;
+}
+
+/* footer layout */
+.site-footer{
+    font-family: "Prata", serif;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+
+    background-color: rgb(97, 97,97);
+    padding-top: 30px;
+    
+}
+
+p + .footer-informacao{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+hr + .footer-informacao{
+    text-align: center;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer-informacao nav{
+    display: flex;
+    column-gap: 20px;
+}
 
 
 /* CSS dos Componentes do Projeto - Utilize o inspecionar elementos antes de modificar os valores */
@@ -205,7 +268,7 @@
 .product-card {
     display: flex;
     flex-direction: column;
-    /* background-color: ; */
+    background-color: white ;
     padding:16px;
     flex-grow: 0;
     flex-shrink: 0;
@@ -224,8 +287,10 @@
     width: 100%;
     padding: 5px 20px;
     background-color: ;
-    border-radius: 15px;
+    border-radius: 30px;
     color: ;
+
+    cursor: pointer;
 }
 
 .products-container {
@@ -246,7 +311,7 @@
 }
 
 .section-product {
-    padding: 3.125em 0;
+    padding: 2.5em 0;
     position: relative;
 }
 

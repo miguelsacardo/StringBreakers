@@ -8,6 +8,11 @@
     <!--importação do CSS-->
     <link rel="stylesheet" href="styles/styles.css" />
 
+    <!--importação da fonte para os textos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
     <!--importação bootstrap icons-->
     <link
       rel="stylesheet"
@@ -133,17 +138,17 @@
 
           <!-- Componente Carrousel de Produtos -->
           <section id="section-1" class="section-product-carrousel">
-          <div class="carrousel">
-          <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
-          </div>
-          </section>
+            <div class="carrousel">
+            <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
+            </div>
+          </section><!--end section-product-carrousel-->
 
           <!-- Botoes reservados para o carrousel - nao remover -->
           <button class="prev">
             <i class="bi bi-chevron-double-left"></i>
           </button>
           <button class="next">
-          <i class="bi bi-chevron-double-right"></i>
+            <i class="bi bi-chevron-double-right"></i>
           </button>
         </section><!--end section-product-->
 
@@ -156,20 +161,20 @@
         <section class="section-product">
           <h2 class="main-title">Mais vendidos</h2>
 
-        <!-- Componente Carrousel de Produtos -->
-        <section id="section-2" class="section-product-carrousel">
-        <div class="carrousel">
-          <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
-        </div>
-        </section>
+          <!-- Componente Carrousel de Produtos -->
+          <section id="section-2" class="section-product-carrousel">
+            <div class="carrousel">
+            <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
+            </div>
+          </section><!--end section-product-carrousel-->
         
-        <!-- Botoes reservados para o carrousel - nao remover -->
-        <button class="prev">
-          <i class="bi bi-chevron-double-left"></i>
-        </button>
-        <button class="next">
-          <i class="bi bi-chevron-double-right"></i>
-        </button>
+          <!-- Botoes reservados para o carrousel - nao remover -->
+          <button class="prev">
+            <i class="bi bi-chevron-double-left"></i>
+          </button>
+          <button class="next">
+            <i class="bi bi-chevron-double-right"></i>
+          </button>
 
         </section><!--end section-product-->
 
@@ -182,21 +187,80 @@
             <div class="carrousel">
               <!-- AREA RESERVADA PARA INSERCAO DOS CARDS DE PRODUTOS - NAO EXCLUIR -->
             </div>
-          </section>
+          </section><!--end section-product-carrousel-->
 
           <!-- Botoes reservados para o carrousel - nao remover -->
-        <button class="prev">
-          <i class="bi bi-chevron-double-left"></i>
-        </button>
-        <button class="next">
-          <i class="bi bi-chevron-double-right"></i>
-        </button>
+          <button class="prev">
+            <i class="bi bi-chevron-double-left"></i>
+          </button>
+          <button class="next">
+            <i class="bi bi-chevron-double-right"></i>
+          </button>
 
         </section><!--end section-product-->
 
+        <!--cards de informação - atendimento pelo whatsapp,  parcelamento de produtos e SAC-->
+        <div class="informational-cards">
+          <div class="card-informations">
+            <h4>Compre pelo</h4>
+            <h2>Whatsapp</h2>
+            <p>Para todo território nacional. Horário de atendimento sujeito a região</p>
+            <h2>(19)99999 9999</h2>
+          </div><!--end div card-informations-->
+
+          <!--parcelamento-->
+          <div class="card-informations">
+            <h4>Parcelamento</h4>
+            <h2>Em até 10 vezes</h2>
+            <p>Parcelamos sua compra em até 10x sem juros para todos os cartões de crédito.</p>
+          </div><!--end div card-informations-->
+
+          <!--SAC-->
+          <div class="card-informations">
+            <h4>Fale Conosco</h4>
+            <h2>Atendimento</h2>
+            <p>Central de atendimento disponível das 08:00 às 20:00 seg a sex</p>
+            <h2>(19)99999 9999</h2>
+          </div><!--end div card-informations-->
+        </div><!--end informational-cards-->
       </div><!--end div container-->
 
     </main><!--end main-->
+
+    <footer id="footer">
+      <div class="site-footer">
+        <div class="container">
+          <p>String Breakers</p>
+          <div class="footer-informacao">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-linkedin"></i>
+            <i class="bi bi-whatsapp"></i>
+            <i class="bi bi-instagram"></i>
+          </div><!--end footer-informacao-->
+  
+          <hr>
+  
+          <div class="footer-informacao">
+            <nav>
+              <p>Política de atendimento</p>
+              <p>Política de privacidade</p>
+              <p>Política de vendas</p>
+            </nav><!--end nav-->
+          </div><!--end footer information-->
+  
+          <hr>
+  
+          <div class="footer-informacao">
+  
+            <div>
+              <div>
+                <p>&copy; 2024 String Breakers. Todos os direitos reservados.<br> "Requisitos para ser um bom guitarrista: usar camisinha e protetor solar"</p>
+              </div>
+            </div>
+          </div><!--end footer-informacao-->
+        </div><!--end container-->
+      </div><!--end site-footer-->
+    </footer><!--end footer-->
 
     <!-- Link para Javascrip - NAO EXCLUIR -->
     <script type="module" src="./scripts/home.js" defer></script>
