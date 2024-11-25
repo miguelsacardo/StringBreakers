@@ -327,11 +327,14 @@ li label{
     padding: 15px 30px 15px 30px;
     border-radius: 10px;
 }
+.filter-content h3{
+    padding-top: 10px;
+}
 .filter-products{
     display: flex;
     justify-content: center;
     padding-top: 20px;
-    height: 190px;
+    height: 320px;
     
 }
 ul li{

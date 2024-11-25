@@ -108,22 +108,70 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
     },
     {
         codigoProduto:3,
-        tituloProduto:"Furadeira e Parafusadeira Bosch Brushless de Impacto a Bateria 12V 3/8 12V GSB 12V-30", 
+        tituloProduto:"Stratocaster Hello Kitty Edition 6 cordas e ponte fixa 1 Humbucker e 1 Knob de volume", 
         preco: 300.00, 
-        descricao:"A Parafusadeira e Furadeira de Impacto a Bateria de 3/8 Bosch GSB 12V-30, 12V, possui motor sem escovas de carvão a um preço que você nunca viu! Além disso, vem com sistema inteligente ECP que protege eletronicamente as células da bateria.",
+        descricao:"Faça sua música brilhar com um toque da Hello Kitty! Essa stratocaster oferece versatilidade e muita possibilidade de atualizações!",
         imagemProduto: {
-            img1:"./images/products/prod02/img1.png",
-            img2:"./images/products/prod02/img2.png",
-            img3:"./images/products/prod02/img3.png",
-            img4:"./images/products/prod02/img4.png",
+            img1:"./images/products/guitars/hello_guitar.jpg",
+            img2:"./images/products/guitars/hello_guitar.jpg",
+            img3:"./images/products/guitars/hello_guitar.jpg",
+            img4:"./images/products/guitars/hello_guitar.jpg",
 
         },
-        categoriaProduto: 'Ferramentas',
+        categoriaProduto: 'Guitarra Stratocaster',
         classificacaoProduto:"Novidades",
         exibirHome: false
     },
     {
-        codigoProduto:4,
+        codigoProduto:742,
+        tituloProduto:"Palheta Big Stubby Shred Roxa Acrílico", 
+        preco: 300.00, 
+        descricao:"As palhetas Big Stubby oferecem conforto para o guitarrista em todos os estilos musicais!",
+        imagemProduto: {
+            img1:"./images/products/guitars/palheta_guitar.webp",
+            img2:"./images/products/guitars/palheta_guitar.webp",
+            img3:"./images/products/guitars/palheta_guitar.webp",
+            img4:"./images/products/guitars/palheta_guitar.webp",
+
+        },
+        categoriaProduto: 'Palheta para guitarra',
+        classificacaoProduto:"Novidades",
+        exibirHome: false
+    },
+    {
+        codigoProduto:743,
+        tituloProduto:"Cordas Nig 010 Níquel Tradicionais", 
+        preco: 300.00, 
+        descricao:"Melhore o som de sua guitarra com cordas novas e de altíssima qualidade!",
+        imagemProduto: {
+            img1:"./images/products/guitars/string_guitar.jpg",
+            img2:"./images/products/guitars/string_guitar.jpg",
+            img3:"./images/products/guitars/string_guitar.jpg",
+            img4:"./images/products/guitars/string_guitar.jpg",
+
+        },
+        categoriaProduto: 'Corda para guitarra',
+        classificacaoProduto:"Novidades",
+        exibirHome: false
+    },
+    {
+        codigoProduto:744,
+        tituloProduto:"Amplificador Marshall 110v-220v Drive 1 entrada", 
+        preco: 300.00, 
+        descricao:"Os amplificadores Marshall possuem as melhores avaliações do mercado e contam com um som cartacterístico próprio!",
+        imagemProduto: {
+            img1:"./images/products/guitars/amplificador.webp",
+            img2:"./images/products/guitars/amplificador.webp",
+            img3:"./images/products/guitars/amplificador.webp",
+            img4:"./images/products/guitars/amplificador.webp",
+
+        },
+        categoriaProduto: 'Amplificador para guitarra',
+        classificacaoProduto:"Mais_Vendidos",
+        exibirHome: false
+    },
+    {
+        codigoProduto:29,
         tituloProduto:"Jem Ibanez Original Steve Vai Signature 6 Cordas Branca Floyd Rose", 
         preco: 300.00, 
         descricao:"A guitarra idealizada pelo mestre Steve Vai possui todas as funcionalidades que um guitarrista deseja: seu braço bem construído permite um conforto da mão esquerda do guitarrista, a ponte flutuante de ultima geração segura a afinação por longos momentos e sua sonoridade de outro mundo fazem essa guitarra se tornar a guitarra das guitarras.",
@@ -234,7 +282,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         exibirHome: true
     },
     {
-        codigoProduto:10000,
+        codigoProduto:10006,
         tituloProduto:"Ibanez Tim Henson prata 6 cordas com ponte semi-flutuante", 
         preco: 300.00, 
         descricao:"Para quem prefere um design mais minimalista, mas mantendo o bom som e material.",
@@ -250,7 +298,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         exibirHome: true
     },
     {
-        codigoProduto:4,
+        codigoProduto:30,
         tituloProduto:"Jem Ibanez Original Steve Vai Signature 6 Cordas Branca Floyd Rose", 
         preco: 300.00, 
         descricao:"A guitarra idealizada pelo mestre Steve Vai possui todas as funcionalidades que um guitarrista deseja: seu braço bem construído permite um conforto da mão esquerda do guitarrista, a ponte flutuante de ultima geração segura a afinação por longos momentos e sua sonoridade de outro mundo fazem essa guitarra se tornar a guitarra das guitarras.",
@@ -282,7 +330,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         exibirHome: true
     },
     {
-        codigoProduto:10001,
+        codigoProduto:10007,
         tituloProduto:"Ernie Ball Music Man 6 cordas Metal ponte semi-flutuante Jason Richardson", 
         preco: 300.00, 
         descricao:"Guitarra construída para ter um som pesado para Metal. Sua sétima corda permite o som característico do Metal moderno.",
@@ -298,7 +346,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         exibirHome: true
     },
     {
-        codigoProduto:1004,
+        codigoProduto:10008,
         tituloProduto:"Gibson Classica 1982 Blues Edition ", 
         preco: 300.00, 
         descricao:"Explore o som robusto que as guitarras Gibson tem a oferecer. Com mais de 100 anos atuando com guitarra, a Gibson é preparada para tornar possível as ideias impossíveis.",
@@ -313,7 +361,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         exibirHome: true
     },
     {
-        codigoProduto:1002,
+        codigoProduto:10009,
         tituloProduto:"Ernie Ball Music man Verde Floyd Rose de 6 cordas Original Eddie Van Halen Edition", 
         preco: 300.00, 
         descricao:"Torne suas ideias realidade utilizando a Original Edition Eddie Van Halen! A Ernie Ball Music Man é uma guitarra que se destaca atualmente pelo seu formato e arquitetura.",
@@ -328,7 +376,7 @@ export const database = [ /* "Banco de dados" de produtos comercializados no sit
         exibirHome: true
     },
     {
-        codigoProduto:10002,
+        codigoProduto:10010,
         tituloProduto:"Fender Original SRV Signature 6 cordas ponte semi-flutuante", 
         preco: 300.00, 
         descricao:"Para os amantes de Blues a nova Signature do Steve Ray Vaughan entrega o clássico som dos anos 70.",
